@@ -8,18 +8,18 @@ const App = () => (
           <span className="mdl-layout-title">Home</span>
           <div className="mdl-layout-spacer"></div>
           <div className="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label className="mdl-button mdl-js-button mdl-button--icon" for="search">
+            <label className="mdl-button mdl-js-button mdl-button--icon" htmlFor="search">
               <i className="material-icons">search</i>
             </label>
             <div className="mdl-textfield__expandable-holder">
               <input className="mdl-textfield__input" type="text" id="search"/>
-              <label className="mdl-textfield__label" for="search">Enter your query...</label>
+              <label className="mdl-textfield__label" htmlFor="search">Enter your query...</label>
             </div>
           </div>
           <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
             <i className="material-icons">more_vert</i>
           </button>
-          <ul className="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+          <ul className="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" htmlFor="hdrbtn">
             <li className="mdl-menu__item">About</li>
             <li className="mdl-menu__item">Contact</li>
             <li className="mdl-menu__item">Legal information</li>
@@ -36,7 +36,7 @@ const App = () => (
               <i className="material-icons" role="presentation">arrow_drop_down</i>
               <span className="visuallyhidden">Accounts</span>
             </button>
-            <ul className="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+            <ul className="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" htmlFor="accbtn">
               <li className="mdl-menu__item">hello@example.com</li>
               <li className="mdl-menu__item">info@example.com</li>
               <li className="mdl-menu__item"><i className="material-icons">add</i>Add another account...</li>
@@ -103,25 +103,25 @@ const App = () => (
                 <h3>View options</h3>
                 <ul>
                   <li>
-                    <label for="chkbox1" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                    <label htmlFor="chkbox1" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                       <input type="checkbox" id="chkbox1" className="mdl-checkbox__input"/>
                       <span className="mdl-checkbox__label">Click per object</span>
                     </label>
                   </li>
                   <li>
-                    <label for="chkbox2" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                    <label htmlFor="chkbox2" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                       <input type="checkbox" id="chkbox2" className="mdl-checkbox__input"/>
                       <span className="mdl-checkbox__label">Views per object</span>
                     </label>
                   </li>
                   <li>
-                    <label for="chkbox3" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                    <label htmlFor="chkbox3" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                       <input type="checkbox" id="chkbox3" className="mdl-checkbox__input"/>
                       <span className="mdl-checkbox__label">Objects selected</span>
                     </label>
                   </li>
                   <li>
-                    <label for="chkbox4" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                    <label htmlFor="chkbox4" className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                       <input type="checkbox" id="chkbox4" className="mdl-checkbox__input"/>
                       <span className="mdl-checkbox__label">Objects viewed</span>
                     </label>
