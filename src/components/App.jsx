@@ -28,7 +28,7 @@ const App = () => (
       </header>
       <div className="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header className="demo-drawer-header">
-          <img src="images/user.jpg" className="demo-avatar"/>
+          <img src="images/user.jpg" className="demo-avatar" alt="avatar"/>
           <div className="demo-avatar-dropdown">
             <span>hello@example.com</span>
             <div className="mdl-layout-spacer"></div>
@@ -94,7 +94,7 @@ const App = () => (
                 Non dolore elit adipisicing ea reprehenderit consectetur culpa.
               </div>
               <div className="mdl-card__actions mdl-card--border">
-                <a href="#" className="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
+                <a href="#readmore" className="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
               </div>
             </div>
             <div className="demo-separator mdl-cell--1-col"></div>
@@ -129,7 +129,7 @@ const App = () => (
                 </ul>
               </div>
               <div className="mdl-card__actions mdl-card--border">
-                <a href="#" className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--blue-grey-50">Change location</a>
+                <a href="#changeloc" className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--blue-grey-50">Change location</a>
                 <div className="mdl-layout-spacer"></div>
                 <i className="material-icons">location_on</i>
               </div>
@@ -154,11 +154,11 @@ const App = () => (
         <defs>
           <g id="chart">
             <g id="Gridlines">
-              <line fill="#888888" stroke="#888888" stroke-miterlimit="10" x1="0" y1="27.3" x2="468.3" y2="27.3" />
-              <line fill="#888888" stroke="#888888" stroke-miterlimit="10" x1="0" y1="66.7" x2="468.3" y2="66.7" />
-              <line fill="#888888" stroke="#888888" stroke-miterlimit="10" x1="0" y1="105.3" x2="468.3" y2="105.3" />
-              <line fill="#888888" stroke="#888888" stroke-miterlimit="10" x1="0" y1="144.7" x2="468.3" y2="144.7" />
-              <line fill="#888888" stroke="#888888" stroke-miterlimit="10" x1="0" y1="184.3" x2="468.3" y2="184.3" />
+              <line fill="#888888" stroke="#888888" strokeMiterlimit="10" x1="0" y1="27.3" x2="468.3" y2="27.3" />
+              <line fill="#888888" stroke="#888888" strokeMiterlimit="10" x1="0" y1="66.7" x2="468.3" y2="66.7" />
+              <line fill="#888888" stroke="#888888" strokeMiterlimit="10" x1="0" y1="105.3" x2="468.3" y2="105.3" />
+              <line fill="#888888" stroke="#888888" strokeMiterlimit="10" x1="0" y1="144.7" x2="468.3" y2="144.7" />
+              <line fill="#888888" stroke="#888888" strokeMiterlimit="10" x1="0" y1="184.3" x2="468.3" y2="184.3" />
             </g>
             <g id="Numbers">
               <text transform="matrix(1 0 0 1 485 29.3333)" fill="#888888" fontFamily="'Roboto'" fontSize="9">500</text>
@@ -175,11 +175,11 @@ const App = () => (
               <text transform="matrix(1 0 0 1 464.3333 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">7</text>
             </g>
             <g id="Layer_5">
-              <polygon opacity="0.36" stroke-miterlimit="10" points="0,223.3 48,138.5 154.7,169 211,88.5
+              <polygon opacity="0.36" strokeMiterlimit="10" points="0,223.3 48,138.5 154.7,169 211,88.5
               294.5,80.5 380,165.2 437,75.5 469.5,223.3 	"/>
             </g>
             <g id="Layer_4">
-              <polygon stroke-miterlimit="10" points="469.3,222.7 1,222.7 48.7,166.7 155.7,188.3 212,132.7
+              <polygon strokeMiterlimit="10" points="469.3,222.7 1,222.7 48.7,166.7 155.7,188.3 212,132.7
               296.7,128 380.7,184.3 436.7,125 	"/>
             </g>
           </g>
