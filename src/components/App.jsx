@@ -62,19 +62,19 @@ const App = () => (
           <div className="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
             <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" className="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
               <use xlinkHref="#piechart" mask="url(#piemask)" />
-              <text x="0.5" y="0.5" font-family="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan fontSize="0.2" dy="-0.07">%</tspan></text>
+              <text x="0.5" y="0.5" fontFamily="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan fontSize="0.2" dy="-0.07">%</tspan></text>
             </svg>
             <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" className="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
               <use xlinkHref="#piechart" mask="url(#piemask)" />
-              <text x="0.5" y="0.5" font-family="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" fontSize="0.2">%</tspan></text>
+              <text x="0.5" y="0.5" fontFamily="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" fontSize="0.2">%</tspan></text>
             </svg>
             <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" className="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
               <use xlinkHref="#piechart" mask="url(#piemask)" />
-              <text x="0.5" y="0.5" font-family="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" fontSize="0.2">%</tspan></text>
+              <text x="0.5" y="0.5" fontFamily="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" fontSize="0.2">%</tspan></text>
             </svg>
             <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" className="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
               <use xlinkHref="#piechart" mask="url(#piemask)" />
-              <text x="0.5" y="0.5" font-family="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" fontSize="0.2">%</tspan></text>
+              <text x="0.5" y="0.5" fontFamily="Roboto" fontSize="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" fontSize="0.2">%</tspan></text>
             </svg>
           </div>
           <div className="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
@@ -161,18 +161,18 @@ const App = () => (
               <line fill="#888888" stroke="#888888" stroke-miterlimit="10" x1="0" y1="184.3" x2="468.3" y2="184.3" />
             </g>
             <g id="Numbers">
-              <text transform="matrix(1 0 0 1 485 29.3333)" fill="#888888" font-family="'Roboto'" fontSize="9">500</text>
-              <text transform="matrix(1 0 0 1 485 69)" fill="#888888" font-family="'Roboto'" fontSize="9">400</text>
-              <text transform="matrix(1 0 0 1 485 109.3333)" fill="#888888" font-family="'Roboto'" fontSize="9">300</text>
-              <text transform="matrix(1 0 0 1 485 149)" fill="#888888" font-family="'Roboto'" fontSize="9">200</text>
-              <text transform="matrix(1 0 0 1 485 188.3333)" fill="#888888" font-family="'Roboto'" fontSize="9">100</text>
-              <text transform="matrix(1 0 0 1 0 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">1</text>
-              <text transform="matrix(1 0 0 1 78 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">2</text>
-              <text transform="matrix(1 0 0 1 154.6667 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">3</text>
-              <text transform="matrix(1 0 0 1 232.1667 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">4</text>
-              <text transform="matrix(1 0 0 1 309 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">5</text>
-              <text transform="matrix(1 0 0 1 386.6667 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">6</text>
-              <text transform="matrix(1 0 0 1 464.3333 249.0003)" fill="#888888" font-family="'Roboto'" fontSize="9">7</text>
+              <text transform="matrix(1 0 0 1 485 29.3333)" fill="#888888" fontFamily="'Roboto'" fontSize="9">500</text>
+              <text transform="matrix(1 0 0 1 485 69)" fill="#888888" fontFamily="'Roboto'" fontSize="9">400</text>
+              <text transform="matrix(1 0 0 1 485 109.3333)" fill="#888888" fontFamily="'Roboto'" fontSize="9">300</text>
+              <text transform="matrix(1 0 0 1 485 149)" fill="#888888" fontFamily="'Roboto'" fontSize="9">200</text>
+              <text transform="matrix(1 0 0 1 485 188.3333)" fill="#888888" fontFamily="'Roboto'" fontSize="9">100</text>
+              <text transform="matrix(1 0 0 1 0 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">1</text>
+              <text transform="matrix(1 0 0 1 78 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">2</text>
+              <text transform="matrix(1 0 0 1 154.6667 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">3</text>
+              <text transform="matrix(1 0 0 1 232.1667 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">4</text>
+              <text transform="matrix(1 0 0 1 309 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">5</text>
+              <text transform="matrix(1 0 0 1 386.6667 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">6</text>
+              <text transform="matrix(1 0 0 1 464.3333 249.0003)" fill="#888888" fontFamily="'Roboto'" fontSize="9">7</text>
             </g>
             <g id="Layer_5">
               <polygon opacity="0.36" stroke-miterlimit="10" points="0,223.3 48,138.5 154.7,169 211,88.5
